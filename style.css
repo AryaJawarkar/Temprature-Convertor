@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    height: 100vh;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 30rem;
+    max-width: 30rem;
+    background-color: powderblue;
+    padding: 10px;
+}
+
+.cont{
+    height: 3rem;
+    margin-top: 10px;
+    border-radius: 18px;
+
+}
+.cont:hover{
+    background-color: #2c2c2c;
+}
+.input{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.cel,.kel,.far{
+    background-color: #141414;
+}
